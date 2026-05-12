@@ -132,6 +132,35 @@ async function main() {
     },
   });
 
+  const coverSourcePath = path.join(process.cwd(), ".figma/image/screenshot_41_9.png");
+  try {
+    const stat = await fs.stat(coverSourcePath);
+    if (stat.isFile()) {
+      await fs.copyFile(coverSourcePath, path.join(outDir, "cover.png"));
+      const coverHtml = `<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    body { margin: 0; padding: 0; background: white; }
+    .c-page34.cover-page { padding: 0; margin: 0; display: block; width: 650px; height: 842px; overflow: hidden; }
+    .cover-img { width: 100%; height: 100%; object-fit: cover; display: block; }
+  </style>
+</head>
+<body>
+  <article class="c-page34 cover-page">
+    <img src="cover.png" class="cover-img" alt="Cover" />
+  </article>
+</body>
+</html>`;
+      await fs.writeFile(path.join(outDir, "34-00.html"), coverHtml, "utf-8");
+      console.log("Injected high-definition cover page (34-00.html)");
+    }
+  } catch (e) {
+    // Cover image not found, ignore
+  }
+
   console.log(`Exported ${pageCount} pages to ${outDir}`);
   console.log(`Index: ${path.join(outDir, "index.html")}`);
 
