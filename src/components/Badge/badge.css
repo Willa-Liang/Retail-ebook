@@ -1,0 +1,14 @@
+.c-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 600;
+}
+
+.c-badge--success {
+  background: #e9f9ee;
+  color: #157a3e;
+}
+

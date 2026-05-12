@@ -1,0 +1,28 @@
+/* Base document styles */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  color: #111827;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial,
+    "Noto Sans", "Apple Color Emoji", "Segoe UI Emoji", sans-serif;
+}
+
+.ebook {
+  max-width: 860px;
+  margin: 0 auto;
+  padding: 48px 24px;
+}
+
+.ebook h1,
+.ebook h2,
+.ebook h3 {
+  margin: 24px 0 12px;
+}
+
+.ebook p {
+  margin: 12px 0;
+  line-height: 1.6;
+}
+

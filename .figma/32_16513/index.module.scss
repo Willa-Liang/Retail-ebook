@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+}
+
+.property1Text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  border-radius: 12px;
+  padding: 24px;
+  width: 554px;
+  height: 138px;
+  overflow: hidden;
+  row-gap: 14px;
+  background-image: linear-gradient(113.23deg, #ffffff -32.46%, #eff4e7 94.68%);
+
+  .frame2147225294 {
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    align-self: stretch;
+    column-gap: 32px;
+
+    .strategyDeterminesDi {
+      flex-grow: 1;
+      line-height: 22px;
+      letter-spacing: -0.16px;
+      color: var(--token-text-title, #1f2329);
+      font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .frame2147225293 {
+      position: relative;
+      flex-shrink: 0;
+      width: 121px;
+      height: 40px;
+
+      .dsgrh2 {
+        position: absolute;
+        top: 0;
+        left: 81px;
+        width: 40px;
+        height: 40px;
+        backdrop-filter: blur(1px);
+      }
+
+      .frame {
+        position: absolute;
+        top: 0;
+        left: 61px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .frame2 {
+        position: absolute;
+        top: 0;
+        left: 40px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .frame3 {
+        position: absolute;
+        top: 0;
+        left: 20px;
+        width: 40px;
+        height: 40px;
+      }
+
+      .frame4 {
+        position: absolute;
+        top: 0;
+        left: 1px;
+        width: 40px;
+        height: 40px;
+      }
+    }
+  }
+
+  .frame2147225153 {
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: flex-start;
+    align-self: stretch;
+    padding-right: 48px;
+    row-gap: 8px;
+
+    .infrastructureDeterm {
+      flex-shrink: 0;
+      align-self: stretch;
+      width: 458px;
+      line-height: 18px;
+      letter-spacing: -0.12px;
+      color: var(--token-text-title, #1f2329);
+      font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 12px;
+    }
+  }
+}

@@ -1,0 +1,233 @@
+* {
+  box-sizing: border-box;
+}
+
+.highlights {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  border: 1px dashed #8a38f5;
+  padding: 19px;
+  width: 594px;
+  height: 732px;
+  overflow: hidden;
+
+  .a18 {
+    flex-shrink: 0;
+    line-height: 32px;
+    letter-spacing: -0.19px;
+    color: #000000;
+    font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  .property1Text {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 12px;
+    padding: 24px;
+    width: 554px;
+    overflow: hidden;
+    row-gap: 20px;
+    background-image: linear-gradient(
+      165.17deg,
+      #9bcdff14 9.2%,
+      #50a4dd14 38.21%,
+      #6bc4ff10 54.06%,
+      #ffd5cb00 105.53%
+    );
+
+    .frame2147225153 {
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      align-items: flex-start;
+      align-self: stretch;
+      margin-right: 89px;
+      row-gap: 8px;
+
+      .strategyDeterminesDi {
+        flex-shrink: 0;
+        align-self: stretch;
+        line-height: 18px;
+        letter-spacing: -0.12px;
+        color: var(--token-text-title, #1f2329);
+        font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+      }
+
+      .infrastructureDeterm {
+        flex-shrink: 0;
+        align-self: stretch;
+        width: 417px;
+        line-height: 18px;
+        letter-spacing: -0.12px;
+        color: var(--token-text-title, #1f2329);
+        font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+
+    .cDsfdscfs2 {
+      position: absolute;
+      top: -45px;
+      right: -91px;
+      flex-shrink: 0;
+      opacity: 0.6;
+      width: 179px;
+      height: 161px;
+      rotate: 120deg;
+    }
+  }
+
+  .property1NumberTextW {
+    display: flex;
+    position: relative;
+    align-items: center;
+    column-gap: 32px;
+    margin-top: 149px;
+    border-radius: 12px;
+    padding: 24px;
+    width: 554px;
+    overflow: hidden;
+    background-image: linear-gradient(
+      173.08deg,
+      #9bcdff14 -3.45%,
+      #50a4dd14 46.69%,
+      #6bc4ff10 74.07%,
+      #ffd5cb00 163.05%
+    );
+
+    .frame2147225172 {
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      align-items: flex-start;
+      justify-content: center;
+      width: 110px;
+      row-gap: 6px;
+
+      .rankedInnovation1 {
+        flex-shrink: 0;
+        width: 105px;
+        line-height: 18px;
+        letter-spacing: -0.1px;
+        color: var(--token-text-title, #1f2329);
+        font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 500;
+      }
+    }
+
+    .vector3252 {
+      flex-shrink: 0;
+      align-self: stretch;
+      width: 2px;
+      height: 192px;
+    }
+
+    .frame2147225171 {
+      display: flex;
+      flex-direction: column;
+      flex-shrink: 0;
+      align-items: flex-start;
+      justify-content: center;
+      row-gap: 12px;
+
+      .a41InvestInInnovatio {
+        flex-shrink: 0;
+        align-self: stretch;
+        width: 290px;
+        line-height: 18px;
+        letter-spacing: -0.1px;
+        color: var(--token-text-title, #1f2329);
+        font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+        font-weight: 700;
+      }
+
+      .innovationMovedFromC {
+        flex-shrink: 0;
+        align-self: stretch;
+        width: 290px;
+        line-height: 18px;
+        letter-spacing: -0.12px;
+        color: var(--token-text-title, #1f2329);
+        font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+        font-size: 12px;
+      }
+
+      .frame2147225279 {
+        display: flex;
+        flex-direction: column;
+        flex-shrink: 0;
+        align-items: flex-start;
+        align-self: stretch;
+        row-gap: 6px;
+
+        .infrastructureNeeded {
+          flex-shrink: 0;
+          align-self: stretch;
+          line-height: 18px;
+          letter-spacing: -0.12px;
+          color: var(--token-text-title, #1f2329);
+          font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 12px;
+          font-weight: 600;
+        }
+
+        .collaborationSystems {
+          flex-shrink: 0;
+          align-self: stretch;
+          width: 290px;
+          line-height: 18px;
+          letter-spacing: -0.12px;
+          color: var(--token-text-title, #1f2329);
+          font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+          font-size: 12px;
+          font-weight: 600;
+        }
+      }
+    }
+
+    .cDsfdscfs22 {
+      position: absolute;
+      top: -29px;
+      right: -408px;
+      flex-shrink: 0;
+      opacity: 0.8;
+      width: 606px;
+      height: 544px;
+      rotate: 151deg;
+    }
+  }
+
+  .property1NumberText {
+    display: flex;
+    align-items: center;
+    column-gap: 24px;
+    margin-top: 149px;
+    width: 506px;
+
+    .vector32522 {
+      flex-shrink: 0;
+      width: 2px;
+      height: 36px;
+    }
+
+    .ofApacLeadersPriorit {
+      flex-shrink: 0;
+      width: 254px;
+      line-height: 22px;
+      letter-spacing: -0.11px;
+      color: #000000;
+      font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 14px;
+    }
+  }
+}

@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+}
+
+.frame2147225314 {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 554px;
+  height: 30px;
+
+  .chapter1 {
+    flex-shrink: 0;
+    line-height: 14px;
+    letter-spacing: -0.08px;
+    color: var(--token-text-placeholder, #8f959e);
+    font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+    font-size: 10px;
+  }
+
+  .frame2147225308 {
+    display: inline-flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    align-items: flex-start;
+    justify-content: flex-end;
+    row-gap: 2px;
+
+    .executiveSummary {
+      flex-shrink: 0;
+      line-height: 14px;
+      letter-spacing: -0.08px;
+      color: var(--token-text-title, #1f2329);
+      font-family: "Lark Circular", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", SimHei, Arial, Helvetica, sans-serif;
+      font-size: 10px;
+    }
+  }
+}

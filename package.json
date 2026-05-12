@@ -1,0 +1,15 @@
+{
+  "name": "retail-ebook",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node src/cli.js render",
+    "export:34": "node src/export34.js",
+    "feishu:render": "node src/feishuRender.js"
+  },
+  "dependencies": {
+    "markdown-it": "^14.1.0",
+    "minimist": "^1.2.8"
+  }
+}
