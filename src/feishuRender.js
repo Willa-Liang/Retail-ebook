@@ -172,7 +172,7 @@ async function buildViewer(dir) {
   const files = await fs.readdir(dir);
   const pageFiles = files.filter((f) => f.match(/^\d+-\d+\.html$/)).sort();
 
-  let allArticles = "";
+  let allArticles = `<div class="pages-grid">`;
   for (const file of pageFiles) {
     const content = await fs.readFile(path.join(dir, file), "utf-8");
     const bodyMatch = content.match(/<body[^>]*>([\s\S]*?)<\/body>/i);
@@ -184,6 +184,7 @@ async function buildViewer(dir) {
       `;
     }
   }
+  allArticles += `</div>`;
 
   const viewerHtml = `<!doctype html>
 <html lang="zh-CN">
@@ -196,12 +197,16 @@ async function buildViewer(dir) {
       body {
         background-color: #525659;
         margin: 0;
-        padding: 40px 0;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 20px;
+        padding: 60px 0 40px 0;
         font-family: sans-serif;
+      }
+      .pages-grid {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        max-width: 1400px;
+        margin: 0 auto;
       }
       .pdf-page-container {
         width: 650px;
